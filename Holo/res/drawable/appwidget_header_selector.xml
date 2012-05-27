@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item>
+        <bitmap android:state_window_focused="false" android:src="@drawable/header_bg_cal_widget_holo" android:tileMode="repeat" />
+    </item>
+    <item android:state_focused="true" android:state_pressed="true" android:drawable="@drawable/header_row_press_cal_widget_holo" />
+    <item android:state_focused="false" android:state_pressed="true" android:drawable="@drawable/header_row_press_cal_widget_holo" />
+    <item android:state_focused="true" android:drawable="@drawable/header_row_focused_cal_widget_holo" />
+</selector>

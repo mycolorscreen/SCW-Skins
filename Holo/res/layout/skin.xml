@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginBottom="8.0dip"
+    android:layout_marginTop="8.0dip"
+    android:orientation="vertical"
+    android:padding="@dimen/widget_margin" >
+
+    <LinearLayout
+        android:id="@+id/container"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentLeft="true"
+        android:background="#66000000"
+        android:clickable="true"
+        android:focusable="true"
+        android:orientation="vertical" >
+
+        <RelativeLayout
+            android:id="@+id/btnLeftTap"
+            android:layout_width="fill_parent"
+            android:layout_height="42.0dip"
+            android:background="@drawable/appwidget_header_selector"
+       >
+
+            <TextView
+                android:id="@+id/weekday"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="6.0dp"
+                android:shadowColor="#0dffffff"
+                android:shadowRadius="3.0"
+                android:text="Jun"
+                android:textColor="#FFFFFFFF"
+                android:textSize="14dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/daynum"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_marginLeft="5.0dip"
+                android:layout_marginTop="-8.0dp"
+                android:layout_toRightOf="@id/weekday"
+                android:includeFontPadding="false"
+                android:text="08"
+                android:textColor="#c0ffffff"
+                android:textSize="46dp" />
+
+            <LinearLayout
+                android:id="@+id/view1"
+                android:layout_width="match_parent"
+                android:layout_height="2.0dip"
+                android:layout_alignParentBottom="true"
+                android:background="#FF33b5e5"
+            />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_div_top_btm_cal_widget_holo"
+            android:clickable="false"
+            android:focusable="false" />
+
+        <ListView
+            android:id="@+id/events_list"
+            android:layout_width="fill_parent"
+            android:layout_height="0.0dip"
+            android:layout_weight="1.0"
+            android:cacheColorHint="@null"
+            android:divider="@null"
+            android:dividerHeight="3.0dip"
+            android:listSelector="@android:color/transparent"
+            android:fadingEdge="none" >
+
+            <!-- Preview: listitem=@layout/skin_row -->
+        </ListView>
+
+        <ImageView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/list_div_top_btm_cal_widget_holo"
+            android:clickable="false"
+            android:focusable="false" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btn_config"
+        android:layout_width="40dp"
+        android:layout_height="match_parent"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/btn_configure" />
+
+</RelativeLayout>
