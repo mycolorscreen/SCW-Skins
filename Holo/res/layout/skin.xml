@@ -1,4 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
+<!-- Skin main layout: container for events with  datebox and config button -->
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -17,8 +18,9 @@
         android:focusable="true"
         android:orientation="vertical" >
 
+        <!-- Box with date & weekday -->
         <RelativeLayout
-            android:id="@+id/btnLeftTap"
+            android:id="@+id/btn_datebox"
             android:layout_width="fill_parent"
             android:layout_height="42.0dip"
             android:background="@drawable/appwidget_header_selector"
@@ -68,6 +70,7 @@
             android:clickable="false"
             android:focusable="false" />
 
+        <!-- List of events will be attached bellow -->
         <ListView
             android:id="@+id/events_list"
             android:layout_width="fill_parent"
