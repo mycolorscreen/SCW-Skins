@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    <style name="styleLabelBig" parent="@android:style/TextAppearance.Large" />
+    
+    <style name="item_shadow">
+        <item name="android:textColor">#FFFFFFFF</item>
+        <item name="android:shadowColor">#80000000</item>
+        <item name="android:shadowDx">1.1</item>
+        <item name="android:shadowDy">1.1</item>
+        <item name="android:shadowRadius">1.2</item>
+    </style>
+
+</resources>

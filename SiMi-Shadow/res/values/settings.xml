@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="skin_name">SiMi Shadow</string>   
+    <string name="donate_url"><![CDATA[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QN4KM8EZ6U8NC]]></string> 
+    <bool name="is_single_event">true</bool>
+</resources>
