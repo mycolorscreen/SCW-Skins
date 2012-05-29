@@ -33,7 +33,7 @@
             	android:paddingRight="10.0dip" 
             	android:layout_width="wrap_content" 
             	android:layout_height="wrap_content" 
-            	style="@+style/item_shadow"
+            	style="@+style/text_shadow"
             	android:maxLines="1"
             	android:text="08"
             	android:includeFontPadding="false"
@@ -46,13 +46,13 @@
             	android:layout_width="fill_parent" 
             	android:layout_height="wrap_content" 
             	android:text="Fri" 
-            	style="@+style/item_shadow"
+            	style="@+style/text_shadow"
             	android:includeFontPadding="false" />
         </LinearLayout>
         <LinearLayout 
         	android:id="@+id/sep_line" 
-        	android:background="#ffffffff" 
-        	android:layout_width="1.0dip" 
+        	android:background="@drawable/line" 
+        	android:layout_width="2.0dip" 
         	android:layout_height="fill_parent"
 			android:layout_marginTop="@dimen/main_line_padding_top"
 			android:layout_marginBottom="@dimen/main_line_padding_bottom"	
@@ -73,7 +73,7 @@
     	android:paddingLeft="10.0dip" 
     	android:layout_width="wrap_content" 
     	android:layout_height="wrap_content" 
-    	android:text="1 more event" style="@+style/styleLabelBig"
+    	android:text="1 more event" style="@+style/text_shadow"
     	android:layout_alignParentBottom="true"
 		android:layout_alignParentRight="true"
     	 />

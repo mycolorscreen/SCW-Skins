@@ -13,7 +13,7 @@
 		android:paddingLeft="10.0dip" 
 		android:layout_width="fill_parent" 
 		android:layout_height="wrap_content" 
-		android:text="Mar 27" style="@+style/item_shadow"
+		android:text="Mar 27" style="@+style/text_shadow"
 	/>
 
 	<TextView
@@ -25,7 +25,7 @@
 	    android:paddingLeft="10.0dip"
 	    android:text="Title"
 	    android:textSize="19.0dp"
-	    style="@+style/item_shadow" />
+	    style="@+style/text_shadow" />
 
 	<TextView 
 		android:textSize="10.0dp" 
@@ -34,7 +34,7 @@
 		android:paddingLeft="10.0dip" 
 		android:layout_width="fill_parent" 
 		android:layout_height="wrap_content" 
-		android:text="Location" style="@+style/item_shadow"
+		android:text="Location" style="@+style/text_shadow"
 	/>
 	<TextView 
 		android:textSize="10.0dp" 
@@ -43,6 +43,6 @@
 		android:paddingLeft="10.0dip" 
 		android:layout_width="fill_parent" 
 		android:layout_height="wrap_content" 
-		android:text="10:00 - 14:00" style="@+style/item_shadow"
+		android:text="10:00 - 14:00" style="@+style/text_shadow"
 	/>
 </LinearLayout>
