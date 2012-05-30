@@ -2,5 +2,6 @@
 <resources>
     <string name="skin_name">Holo</string> <!-- Name of widget to be displayed in skin chooser -->   
     <string name="app_name">Holo Theme for Simple Calendar Widget</string> <!-- Name of application -->
+    <string name="author">Alex Gavrishev</string>
 
 </resources>

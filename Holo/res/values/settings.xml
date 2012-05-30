@@ -2,4 +2,5 @@
 <resources>
     <string name="donate_url"><![CDATA[https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=QN4KM8EZ6U8NC]]></string> 
     <bool name="is_single_event">false</bool>
+    <string name="website_url"/>
 </resources>
