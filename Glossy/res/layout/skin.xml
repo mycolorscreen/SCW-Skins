@@ -59,7 +59,7 @@
                     android:includeFontPadding="false"
                     android:paddingRight="10.0dip"
                     android:text="Fri"
-                    android:textSize="17.0dp" />
+                    android:textSize="20.0dp" />
 
                 <LinearLayout
                     android:id="@+id/sep_line"
@@ -81,7 +81,7 @@
                     android:maxLines="1"
                     android:paddingRight="10.0dip"
                     android:text="08"
-                    android:textSize="20.0dp" />
+                    android:textSize="22.0dp" />
             </LinearLayout>
         </LinearLayout>
 
