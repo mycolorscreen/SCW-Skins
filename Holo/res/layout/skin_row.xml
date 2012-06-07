@@ -20,14 +20,14 @@
 
     <LinearLayout
         android:id="@+id/widget_row"
-        android:layout_height="wrap_content"
         android:layout_width="match_parent"
-        android:orientation="horizontal"
-        android:minHeight="24dp"
-        android:layout_below="@+id/event_date"
+        android:layout_height="wrap_content"
         android:layout_alignParentLeft="true"
+        android:layout_below="@+id/event_date"
         android:background="#FFFFFFFF"
-        android:paddingBottom="2.0dip">
+        android:minHeight="24dp"
+        android:orientation="horizontal"
+        android:paddingBottom="2.0dip" >
 
         <ImageView
             android:id="@+id/event_color"
