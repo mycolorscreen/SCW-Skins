@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/container"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:layout_margin="0dip"
@@ -9,90 +8,89 @@
     android:paddingLeft="@dimen/widget_margin"
     android:paddingRight="@dimen/widget_margin"
     android:paddingTop="@dimen/main_padding_top" >
-
-    <RelativeLayout
+
+    <FrameLayout
+        android:id="@+id/container"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:background="@drawable/bg" >
+        android:layout_height="wrap_content" >
 
-        <TextView
-            android:id="@+id/event_conflicts"
-            style="@+style/text_shadow"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:gravity="left"
-            android:paddingLeft="10.0dip"
-            android:text="1 more event"
-            android:textSize="10.0dp" />
-
-        <LinearLayout
+        <RelativeLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_alignParentTop="true"
-            android:layout_centerHorizontal="true"
-            android:orientation="horizontal" >
+            android:background="@drawable/bg" >
+
+            <TextView
+                android:id="@+id/event_conflicts"
+                style="@+style/text_shadow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentLeft="true"
+                android:gravity="left"
+                android:paddingLeft="10.0dip"
+                android:text="1 more event"
+                android:textSize="10.0dp" />
 
             <LinearLayout
-                android:id="@+id/events_list"
-                android:layout_width="0dp"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_weight="1.0"
-                android:orientation="vertical" >
-            </LinearLayout>
-
-            <LinearLayout
-                android:id="@+id/btn_datebox"
-                android:layout_width="50dp"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="10dp"
-                android:paddingRight="5dp"                
-                android:orientation="vertical" >
-
-                <TextView
-                    android:id="@+id/weekday"
-                    style="@+style/text_shadow"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:gravity="center_horizontal"
-                    android:includeFontPadding="false"
-                    android:paddingRight="10.0dip"
-                    android:text="Fri"
-                    android:textSize="20.0dp" />
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"
+                android:orientation="horizontal" >
 
                 <LinearLayout
-                    android:id="@+id/sep_line"
-                    android:layout_width="match_parent"
-                    android:layout_height="1dp"
-                    android:layout_marginBottom="@dimen/main_line_padding_bottom"
-                    android:layout_marginTop="@dimen/main_line_padding_top"
-                    android:background="#88FFFFFF" >
+                    android:id="@+id/events_list"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1.0"
+                    android:orientation="vertical" >
                 </LinearLayout>
 
-                <TextView
-                    android:id="@+id/daynum"
-                    style="@+style/text_shadow"
-                    android:layout_width="match_parent"
+                <LinearLayout
+                    android:id="@+id/btn_datebox"
+                    android:layout_width="50dp"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:gravity="right"
-                    android:includeFontPadding="false"
-                    android:maxLines="1"
-                    android:paddingRight="10.0dip"
-                    android:text="08"
-                    android:textSize="22.0dp" />
+                    android:layout_marginTop="@dimen/datebox_margin_top"
+                    android:orientation="vertical"
+                    android:paddingRight="5dp" >
+
+                    <TextView
+                        android:id="@+id/weekday"
+                        style="@+style/text_shadow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:includeFontPadding="false"
+                        android:text="Fri"
+                        android:textSize="20.0dp" />
+
+                    <LinearLayout
+                        android:id="@+id/sep_line"
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="#88FFFFFF" >
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/daynum"
+                        style="@+style/text_shadow"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:includeFontPadding="false"
+                        android:maxLines="1"
+                        android:text="08"
+                        android:textSize="26.0dp" />
+                </LinearLayout>
             </LinearLayout>
-        </LinearLayout>
 
-
-        <Button
-            android:id="@+id/btn_config"
-            android:layout_width="40dp"
-            android:layout_height="match_parent"
-            android:layout_alignParentLeft="true"
-            android:background="@drawable/btn_configure" />
-        
-    </RelativeLayout>
+            <Button
+                android:id="@+id/btn_config"
+                android:layout_width="40dp"
+                android:layout_height="match_parent"
+                android:layout_alignParentLeft="true"
+                android:background="@drawable/btn_configure" />
+        </RelativeLayout>
+    </FrameLayout>
 
 </FrameLayout>

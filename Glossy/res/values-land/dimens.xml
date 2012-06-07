@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_margin">8.0dp</dimen>
+    <dimen name="main_padding_top">0.0dp</dimen>
+    <dimen name="main_padding_bottom">0.0dp</dimen>
+    <dimen name="datebox_margin_top">5.0dp</dimen>
+</resources>
