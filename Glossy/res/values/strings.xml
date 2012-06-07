@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="skin_name">Glossy</string> <!-- Name of widget to be displayed in skin chooser --> 
+    <string name="app_name">Glossy SCW Skin</string> <!-- Name of application -->
+</resources>

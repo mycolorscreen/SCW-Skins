@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="widget_margin">8.0dp</dimen>
+    <dimen name="main_padding_top">6.0dp</dimen>
+    <dimen name="main_padding_bottom">6.0dp</dimen>
+    <dimen name="main_line_padding_top">0dp</dimen>
+    <dimen name="main_line_padding_bottom">0dp</dimen>
+</resources>

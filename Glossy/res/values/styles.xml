@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+    
+    <style name="item_shadow">
+        <item name="android:shadowColor">#DD000000</item>
+        <item name="android:shadowDx">0.0</item>
+        <item name="android:shadowDy">2.0</item>
+        <item name="android:shadowRadius">4.0</item>
+    </style>
+
+    <style name="text_shadow" parent="item_shadow">
+        <item name="android:textColor">#DDFFFFFF</item>
+    </style>
+</resources>
