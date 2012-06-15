@@ -12,6 +12,7 @@
         android:layout_height="wrap_content"
         android:gravity="left"
         android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
         android:text="Mar 27"
         android:textSize="14.0dp" />
 
@@ -23,6 +24,7 @@
         android:ellipsize="end"
         android:maxLines="2"
         android:paddingLeft="10.0dip"
+        android:paddingRight="10.0dip"
         android:text="Title"
         android:textSize="17.0dp" />
 
@@ -48,6 +50,7 @@
             android:layout_height="wrap_content"
             android:gravity="left"
             android:paddingLeft="10.0dip"
+        	android:paddingRight="10.0dip"
             android:text="Location"
             android:textSize="10.0dp" />
 
