@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="sense_content_margin_top">0dp</dimen>
+    <dimen name="sense_content_margin_bottom">0dp</dimen>
+    <dimen name="sense_cal_img_top">6dp</dimen>
+    <dimen name="sense_cal_weekday_top">10dp</dimen>
+</resources>
