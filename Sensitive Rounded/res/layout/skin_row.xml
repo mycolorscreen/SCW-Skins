@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content" 
+	android:layout_weight="1.0"
+	android:layout_marginTop="2.0dip"
+>
+	<TextView 
+		android:textSize="14.0sp" 
+		android:gravity="left" 
+		android:textColor="#ffb2b2b2"
+		android:id="@+id/event_date" 
+		android:paddingLeft="10.0dip" 
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:text="Jul 4" style="@+style/styleLabelBig" 
+	/>
+
+	<TextView
+	    android:id="@+id/event_title"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="-4.0dp"
+	    android:ellipsize="end"
+	    android:maxLines="2"
+	    android:paddingLeft="10.0dip"
+	    android:text="The aliens are coming and their goal is to invade and destroy."
+	    android:textSize="18.0sp" />
+
+	<LinearLayout
+		android:layout_width="fill_parent" 
+		android:layout_height="wrap_content" 
+		android:orientation="horizontal" 
+		android:layout_marginTop="-3.0dp" >
+		<TextView 
+			android:textSize="14.0sp" 
+			android:gravity="left" 
+			android:id="@+id/event_times"
+			android:paddingLeft="10.0dip" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="00:00 - 23:59"
+		/>
+		<TextView 
+			android:textSize="10.0sp" 
+			android:gravity="left" 
+			android:id="@+id/event_location"
+			android:paddingLeft="10.0dip" 
+			android:layout_width="wrap_content" 
+			android:layout_height="wrap_content" 
+			android:text="USA"
+			android:maxLines="1"
+			style="@+style/styleLabelBig" 
+		/>
+	</LinearLayout>
+</LinearLayout>

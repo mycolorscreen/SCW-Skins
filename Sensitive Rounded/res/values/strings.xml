@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="skin_name">Sensitive Rounded</string> <!-- Name of widget to be displayed in skin chooser -->   
+    <string name="app_name">Sensitive Rounded Skin for Simple Calendar Widget</string> <!-- Name of application -->
+    <string name="author">Alex Gavrishev</string>
+
+</resources>
