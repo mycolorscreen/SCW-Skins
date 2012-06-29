@@ -102,6 +102,49 @@ Predefined views
 
     TextView :: @+id/no_events_text - Text: no events found
 
+#### Strings
+Text information
+Location: /res/values/strings.xml
+
+    skin_name - Name of widget to be displayed inside skin chooser   
+    app_name - Name of application, will be displayd in list of installed applications
+    author - Author name will be displaye inside skin chooser
+
+#### Settings
+Skin defined parameters
+Location: res/values/settings.xml
+
+    is_single_event - true/false - if skin shows only one next event or list of events
+    website_url - Url to site with information about skin and its author
+    donate_url - Escaped url to page where donation can be send to the author of the skin
+
 Compatibility
 --------------
+
+#### Multiple screen sizes
+Its possible to provide layouts, values, graphics for different screen sizes by following the guide below
+http://developer.android.com/guide/topics/resources/providing-resources.html
+Example - Different values for landscape screen orientation:
+https://github.com/anod/SCW-Skins/blob/master/SiMi-Multi-Shadow/res/values-land/dimens.xml
+
+Best practices:
+http://developer.android.com/guide/practices/screens_support.html
+
+#### Margins
+Adding margins to App Widgets:
+http://developer.android.com/guide/topics/appwidgets/index.html#CreatingLayout
+
+#### Scrollable widgets
+Since Honeycomb (v11) Android supports scrollable layouts.
+Additional layout for "skin.xml" needs to be provided under /res/layout-v11/skin.xml
+This layout should use ListView instead of LinearLayout for "@+id/events_list"
+
+Example:
+https://github.com/anod/SCW-Skins/blob/master/Holo/res/layout-v11/skin.xml
+
+Publishing
+----------
+Currently skin needs to be published in the Android Market with "SCW Skins" in application name
+in order to be descovered by other people. I'm working on the site that will be give an option to upload skins 
+without Android Market developer registration
 
