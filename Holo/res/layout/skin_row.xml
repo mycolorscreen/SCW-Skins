@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!-- Row with one event information // -->
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="@null" >
+    android:layout_height="wrap_content"
+    android:background="@null"
+    android:orientation="vertical" >
 
     <TextView
         android:id="@+id/event_date"
@@ -22,8 +23,6 @@
         android:id="@+id/widget_row"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_alignParentLeft="true"
-        android:layout_below="@+id/event_date"
         android:background="#FFFFFFFF"
         android:minHeight="24dp"
         android:orientation="horizontal"
@@ -78,4 +77,4 @@
         </LinearLayout>
     </LinearLayout>
 
-</RelativeLayout>
+</LinearLayout>
